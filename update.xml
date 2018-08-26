@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+	<update>
+		<name>Random Strapline</name>
+		<description>Displays a random single line from a the lines in the module config</description>
+		<element>randomstrapline</element>
+		<type>module</type>
+		<version>1.0.0</version>
+		<client>0</client>
+		<infourl title="Random Strapline">https://github.com/Spudley/mod_randomstrapline/releases/tag/1.0.0</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/Spudley/mod_randomstrapline/archive/1.0.0.zip</downloadurl>
+		</downloads>
+		<targetplatform name="joomla" version="3.[56789]" />
+        <php_minimum>5.6.0</php_minimum>
+	</update>
+</updates>

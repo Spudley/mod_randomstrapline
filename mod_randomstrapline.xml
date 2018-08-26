@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.8" client="site" method="upgrade">
+	<name>MOD_RANDOMSTRAPLINES_NAME</name>
+	<author>Simon Champion</author>
+	<creationDate>August 2018</creationDate>
+    <copyright>Copyright (C) 2018 Simon Champion.</copyright>
+    <license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <authorEmail>simon@simonchampion.net</authorEmail>
+    <authorUrl>https://github.com/Spudley</authorUrl>
+	<version>1.0.0</version>
+	<description>MOD_RANDOMSTRAPLINES_DESCRIPTION</description>
+	<files>
+		<filename module="mod_randomstrapline">mod_randomstrapline.php</filename>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_randomstrapline.sys.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_randomstrapline.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+                <field name="htmlclass" type="text" default="" label="MOD_RANDOMSTRAPLINES_HTMLCLASS_LABEL" description="MOD_RANDOMSTRAPLINES_HTMLCLASS_DESC"/>
+                <field name="straplines" type="textarea" default="" label="MOD_RANDOMSTRAPLINES_STRAPLINES_LABEL" description="MOD_RANDOMSTRAPLINES_STRAPLINES_DESC"/>
+			</fieldset>
+		</fields>
+	</config>
+    <updateservers>
+        <server type="extension" priority="2" name="Random Straplines Updates">https://raw.githubusercontent.com/Spudley/mod_randomstraplines/master/update.xml</server>
+    </updateservers>
+</extension>
