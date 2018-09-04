@@ -25,7 +25,7 @@ As with any module, it can be placed anywhere on your site, so you are of course
 Installation
 ------------
 
-This module should be installed via the Extensions manager in Joomla!'s admin panel. You should also ensure that you have K2 installed in your Joomla! instance, as this module relies on it.
+This module should be installed via the Extensions manager in Joomla!'s admin panel.
 
 
 Setup
